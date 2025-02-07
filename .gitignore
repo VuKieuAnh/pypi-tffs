@@ -1,0 +1,45 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+.conda/
+*.egg-info/
+
+# Ignore build and distribution files
+dist/
+build/
+*.egg
+*.whl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Ignore cache directories
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Pipenv and Poetry files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+myenv/
