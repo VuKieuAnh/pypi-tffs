@@ -6,7 +6,7 @@ setup(
     description="Feature selection based on top frequency",  # Mô tả
     author="Vu Kieu Anh",                # Tên tác giả
     author_email="vukieuanh.hnue@gmail.com",  # Email tác giả
-    url="https://github.com/VuKieuAnh/TFFS",  # URL GitHub (nếu có)
+    url="https://github.com/VuKieuAnh/pypi-tffs",  # URL GitHub (nếu có)
     packages=find_packages(),          # Tự động tìm kiếm package
     classifiers=[                      # Phân loại thư viện
         "Programming Language :: Python :: 3",
