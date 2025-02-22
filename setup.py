@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="tfffs",                 # Tên thư viện
-    version="1.1.0",                   # Phiên bản
+    name="tffs",                 # Tên thư viện
+    version="1.1.1",                   # Phiên bản
     description="Feature selection based on top frequency",  # Mô tả
     author="Vu Kieu Anh",                # Tên tác giả
     author_email="vukieuanh.hnue@gmail.com",  # Email tác giả
@@ -14,4 +14,8 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',           # Phiên bản Python yêu cầu
+    install_requires=[
+        "numpy>=1.21.0",
+        "scikit-learn>=1.0.2"
+    ],
 )
